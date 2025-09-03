@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonalli Cosméticos Naturales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header>
+        <div class="container">
+          <div class="logo">
+	    <!-- Logo de la empresa -->
+    <div style="text-align: center">
+      <img src="img/logo_.png" alt="Logo de la empresa" width="100" height="100">
+    </div>
+                <!-- h1>Tonalli Cosméticos Naturales</h1 -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero con Carrusel -->
+    <section id="inicio" class="hero">
+        <div class="carousel">
+          <div class="carousel-inner">
+	    	    <div class="carousel-item active" data-category="aromatica">
+                    <img src="./img/aromatica.png" alt="Desmaquillantes suaves">
+                    <div class="carousel-caption">
+                        <h2>Aromática</h2>
+                        <!--p>Más que un aroma, una experiencia</p-->
+			<p>El aroma perfecto para tu hogar</p>
+                        <a href="#productos" class="btn">Ver Productos</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-category="capilar">
+                    <img src="./img/capilar.png" alt="cuidado capilar">
+                    <div class="carousel-caption">
+                        <h2>Cuidado Capilar</h2>
+                        <p>Cuida tu cabello con ingredientes orgánicos</p>
+                        <a href="#productos" class="btn">Ver Productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-category="corporal">
+                    <img src="./img/corporal.png" alt="Lociones corporales">
+                    <div class="carousel-caption">
+                      <h2>Cuidado corporal</h2>
+		      <p>Nutre tu piel con nuestros productos naturales</p>
+                        
+                        <a href="#productos" class="btn">Ver Productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-category="facial">
+                    <img src="./img/facial.png" alt="Shampoos naturales">
+                    <div class="carousel-caption">
+                      <h2>Cuidado facial</h2>		      
+                        <p>Limpieza suave y efectiva para tu rostro</p>
+                        <a href="#productos" class="btn">Ver Productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-category="protectores">
+                    <img src="./img/protectores.png" alt="Desmaquillantes suaves">
+                    <div class="carousel-caption">
+                        <h2>Protectores</h2>
+                        <p>Protege tu piel de los rayos solares</p>
+                        <a href="#productos" class="btn">Ver Productos</a>
+                    </div>
+                </div>
+            </div>
+
+	    
+            <div class="carousel-controls">
+                <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+                <span class="indicator" data-index="3"></span>
+		<span class="indicator" data-index="4"></span>
+            </div>
+            <div class="category-selector">
+                <!--button class="category-btn active" data-category="todos">Todos</button-->
+                <button class="category-btn" data-category="aromatica">Aromática</button>
+                <button class="category-btn" data-category="capilar">Cuidado capilar</button>
+                <button class="category-btn" data-category="corporal">Cuidado corporal</button>
+                <button class="category-btn" data-category="facial">Cuidado facial</button>
+                <button class="category-btn" data-category="protectores">Protectores</button>
+		
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                  <p>Tonalli Cosméticos Naturales nace de la inspiración de generar un cambio consciente y responsable para el cuidado personal, utilizando productos naturales de origen animal, vegetal y mineral; sin crueldad animal, amigables con el medio ambiente y sobre todo no tóxicos para tu salud.</p>
+		  <p> Somos una empresa orgullosamente mexicana, comprometida con la elaboración artesanal de productos de alta calidad que evocan a la cosmovisión prehispánica: El tonalli es la fuerza vital que está presente en cada persona; por ello creemos que la verdadera belleza proviene de nuestro interior, pero nos encanta ayudar a que este tonalli brille y se refleje en tu exterior... Así que ama y cuida tu tonalli con nuestros productos naturales!</p>
+                </div>
+                <div class="about-image">
+                    <img src="./img/agua.jpg" alt="Nuestro equipo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="aromatica">Aromática</button>
+                <button class="filter-btn" data-filter="capilar">Cuidado capilar</button>
+                <button class="filter-btn" data-filter="corporal">Cuidado corporal</button>
+                <button class="filter-btn" data-filter="facial">Cuidado facial</button>
+		<button class="filter-btn" data-filter="protectores">Protectores</button>
+            </div>
+            <div class="products-grid" id="products-container">
+                <!-- Los productos se cargarán dinámicamente desde el CSV -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Detalles de Producto -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Contenido del modal se cargará dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Aguascalientes, México</p>
+                    <p><i class="fas fa-phone"></i> (+52) 777 105 4872</p>
+                    <p><i class="fas fa-envelope"></i> tonalli.natural@.gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Lunes a Sábado: 9:00 - 18:00</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/TonalliCosmeticosNaturales"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/tonalli_cosmeticos/"><i class="fab fa-instagram"></i></a>
+                        <!--a href="#"><i class="fab fa-twitter"></i></a-->
+                        <!--a href="#"><i class="fab fa-pinterest-p"></i></a-->
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tonalli Cosméticos Naturales</h3>
+                    <p>Productos cosméticos naturales para el cuidado de tu piel y cabello.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="#productos" data-filter="aromatica">Aromática</a></li>
+                        <li><a href="#productos" data-filter="capilar">Cuidado capilar</a></li>
+                        <li><a href="#productos" data-filter="corporal">Cuidado corporal</a></li>
+                        <li><a href="#productos" data-filter="facial">Cuidado facial</a></li>
+			<li><a href="#productos" data-filter="protectores">Protectores</a></li>
+                    </ul>
+                </div>
+                <!--div class="footer-section">
+                    <h3>Suscríbete</h3>
+                    <p>Recibe nuestras promociones y novedades.</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div-->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tonalli Cosméticos Naturales. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
