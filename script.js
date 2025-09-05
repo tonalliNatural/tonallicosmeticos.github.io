@@ -26,7 +26,7 @@ function loadProducts() {
             imagen: "./img/aromatizanteL.png",
             precio: "$95.00 MXN",
             descripcion: "Aromatizante para interiores elaborado con esencia de lavanda que te hará crear un ambiente de calma, bienestar y estabilidad en tu hogar; además, promueve un sueño más profundo y reparador y combate los malos olores. Déjate envolver por la calma y el bienestar que solo el aromatizante Tonalli te puede ofrecer!",
-            ingredientes: "Alcohol denat, Esencia natural de Lavanda, Colorante vegetal rojo y azul",
+            ingredientes: "Alcohol denat, esencia de lavanda y colorantes vegetales rojo y azul",
             instrucciones: "Agitar vigorosamente antes de usar. Presionar el atomizador para esparcir la solución en las áreas del hogar, oficina, vehículo u otra zona de que desee aromatizar. Utilizar durante el día cuantas veces lo requiera",
 	    presentacion: "Doble presentación: 150 ml ($63.00 MXN) y 250 ml ($95.00 MXN)",
 	    categoria: "aromatica"
@@ -37,7 +37,7 @@ function loadProducts() {
             imagen: "./img/aromatizanteF.png",
             precio: "$95.00 MXN",
             descripcion: "Aromatizante dulce, y a la vez fresco, para interiores elaborado con esencia frutal que te hará aumentar tu energía mental y física, y tu productividad al estimular tus sentidos!",
-            ingredientes: "Alcohol denat, Esencia frutal, Colorante vegetal rojo",
+            ingredientes: "Alcohol denat, esencia frutal y colorante vegetal rojo",
             instrucciones: "Agitar vigorosamente antes de usar. Presionar el atomizador para esparcir la solución en las áreas del hogar, oficina, vehículo u otra zona de que desee aromatizar. Utilizar durante el día cuantas veces lo requiera",
 	    presentacion: "Doble presentación: 150 ml ($63.00 MXN) y 250 ml ($95.00 MXN)",
 	    categoria: "aromatica"
@@ -47,7 +47,7 @@ function loadProducts() {
             imagen: "./img/colonia.png",
             precio: "$141.00 MXN",
             descripcion: "Colonia clásica y fresca con exquisito aroma cítrico, elaborada con esencias de naranja y azahar, ideal para personas que deseen armonizar su estado emocional, y refrescar, suavizar y tonificar su piel después de la ducha y durante todo un día cálido, e incluso después del afeitado para así calmar la piel irritada y proporcionar una sensación de frescura y limpieza",
-            ingredientes: "Alcohol denat, Agua, Esencia de azahar y de naranja, Colorante vegetal amarillo",
+            ingredientes: "Alcohol denat, agua, esencia de azahar y naranja,  y colorante vegetal amarillo",
             instrucciones: "Después de la ducha, aplicar un poco de agua de colonia en la parte posterior de las orejas, en la clavícula, sobre las muñecas o en la parte del cuerpo que desee refrescar",
 	    presentacion: "250 ml",
 	    categoria: "facial"
@@ -57,7 +57,7 @@ function loadProducts() {
             imagen: "./img/bodyF.png",
             precio: "$91.00 MXN",
             descripcion: "Spray corporal con un aroma dulce y delicioso que te ayudará a refrescarte y sentirte fabulosa en cualquier momento de tu día! Incluso puedes aplicarlo sobre tu cabello ya que no mancha",
-            ingredientes: "Alcohol denat, Dimeticona copoliol, Esencia frutal, Colorante vegetal rojo",
+            ingredientes: "Alcohol denat, fijador de perfume, esencia frutal y colorante vegetal rojo",
             instrucciones: "Rociar a corta distancia (15 centímetros) la bruma del Body Mist preferentemente en todo el cuerpo, incluyendo el cabello. Su efecto dura hasta 2 horas por lo que se puede aplicar varias veces al día para mantener la frescura y el aroma en tu piel",
 	    presentacion: "125 ml",
 	    categoria: "corporal"
@@ -67,7 +67,7 @@ function loadProducts() {
             imagen: "./img/bodyR.png",
             precio: "$91.00 MXN",
             descripcion: "Spray corporal con notas clásicas de cedro y cítricos muy efectiva para sentirse fresco, vibrante y en armonía durante su uso! Es Ideal para quien prefiera un aroma más serio y con más presencia durante la noche y/o el día",
-            ingredientes: "Alcohol denat, Dimeticona copoliol, Esencia de cedro y de cítricos, Colorante vegetal amarillo, rojo y azul",
+            ingredientes: "Alcohol denat, fijador de perfume, esencia de cedro y  cítricos, y colorante vegetal amarillo, rojo y azul",
 		    instrucciones: "Rociar a corta distancia (15 centímetros) la bruma del Body Mist preferentemente en todo el cuerpo, incluyendo el cabello. Su efecto dura hasta 2 horas por lo que se puede aplicar varias veces al día para mantener la frescura y el aroma en tu piel",
 		    presentacion: "125 ml",
 	    categoria: "corporal"
@@ -77,7 +77,7 @@ function loadProducts() {
             imagen: "./img/locionC.png",
             precio: "$199.00 MXN",
             descripcion: "Loción terapéutica de bergamota permite tener un cabello suave, con movimiento y fijación natural, es decir, controlado por peso y alisado para no dejar que se alborote, además de que actúa como vasodilatador estimulando el cuero cabelludo, abriendo el folículo, nutriéndolo y originando el nacimiento de nuevo cabello de forma natural. Sus efectos son permanentes por lo que es ideal para personas con problemas de alopecia y entradas por pérdida excesiva de cabello!",
-            ingredientes: "Alcohol denat, Aceite de fruta de bergamota",
+            ingredientes: "Alcohol denat, bergamota",
             instrucciones: "Verter la loción sobre la palma de la mano para posteriormente distribuir uniformemente sobre el cuero cabelludo; masajear suavemente por dos minutos. No enjuagar",
 	    presentacion: "120 ml",
 	    categoria: "capilar"
@@ -87,7 +87,7 @@ function loadProducts() {
             imagen: "./img/repelente.png",
             precio: "$257.00 MXN",
             descripcion: "Ahuyentador súper efectivo contra mosquitos gracias al efecto de repeler potencializado por la combinación de los cuatro aceites esenciales del producto. Ideal para días de campo, viajes a la playa o simplemente para disfrutar de un atardecer en tu hogar! Por sus activos  100% naturales, su uso es seguro para toda la familia",
-            ingredientes: "Alcohol denat, Glicerina, Aceite esencial de citronela, Aceite esencial de Eucalipto, Aceite esencial de lavanda, Aceite esencial de limón, Colorante vegetal amarillo",
+            ingredientes: "Alcohol denat, glicerina, aceites esenciales de citronela, eucalipto, lavanda y limón, y colorante vegetal amarillo",
               instrucciones: "Aplicar directamente sobre la piel del cuerpo; para la cara, primero rociar sobre las manos y posteriormente distribuir sobre la cara",
 	      presentacion: "130 ml",
 	      precaucion: "Evitar el contacto directo con los ojos, heridas o piel irritada. No ingerir",
@@ -98,7 +98,7 @@ function loadProducts() {
             imagen: "./img/antiacne.png",
             precio: "$157.00 MXN",
             descripcion: "Logra una piel hidratada y saludable libre de acné, puntos negros y brillo! Gracias a la acción sebo-reguladora, antibacterial, antiinflamatoria y anti-obstrucción de poros de los componentes de este tónico facial, limpiarás profundamente tu rostro para lucir radiante y sin resequedad. Producto recomendado para piel grasa o con tendencia a tener acné",
-            ingredientes: "Licor de Hoffman, Agua de rosas, Azufre, Ácido salicílico",
+            ingredientes: "Licor de Hoffman, agua de rosas, azufre y acido salicílico",
             instrucciones: "Agitar bien antes de usar. Con un algodón, aplicar  en la cara recién lavada antes de dormir. Al día siguiente, lavarse la cara nuevamente y seguir con la rutina normal de cuidado facial",
 	    presentacion: "150 ml",
 	    precaucion: "Su aroma puede ser muy fuerte por lo que se recomienda contener la respiración durante la aplicación del tónico",
@@ -109,7 +109,7 @@ function loadProducts() {
             imagen: "./img/salesFlo.png",
             precio: "$158.00 MXN",
             descripcion: "Las sales de baño Tonalli ayudan a exfoliar y desintoxicar tu cuerpo con la apertura de los poros de la piel, lo cual permite la liberación de toxinas y metales pesados. Lleva tu cuerpo a un estado de dulce relajación, y a la vez mejora considerablemente tu circulación sanguínea!",
-            ingredientes: "Sal marina, Sulfato de magnesio, Glicerina, Esencia floral, Colorante vegetal rojo",
+            ingredientes: "Sal marina, sulfato de magnesio, glicerina, esencia floral y  colorante vegetal rojo",
             instrucciones: "Uso en pies: Llenar una cubeta con 10 litros de agua a una temperatura tibia a caliente agradable, y añadir 30 gramos de sales florales. Uso en bañera: Añadir 90 gramos al agua a una temperatura de confort. Para ambas opciones, permanecer de 10 a 20 minutos. No enjuagar posterior a la ducha, solo secar con una toalla y posteriormente tomar un descanso de 20 a 30 minutos",
 	    presentacion: "450 g",
 	    categoria: "corporal"
@@ -119,7 +119,7 @@ function loadProducts() {
             imagen: "./img/salesLab.png",
             precio: "$158.00 MXN",
             descripcion: "Las sales de baño Tonalli ayudan a exfoliar suavemente, a regular el nivel de humedad celular y activar el metabolismo. Bañarse con sales de lavanda te ayudará a combatir la fatiga mejorando tu estado de ánimo, y a la vez relajándote para eliminar el insomnio y brindarte paz interior!",
-            ingredientes: "Sal marina, Sulfato de magnesio, Glicerina, Esencia de lavanda, Colorante vegetal rojo y azul",
+            ingredientes: "Sal marina, sulfato de magnesio, glicerina, esencia de lavanda y colorante vegetal rojo y azul",
             instrucciones: "Uso en pies: Llenar una cubeta con 10 litros de agua a una temperatura tibia a caliente agradable, y añadir 30 gramos de sales de lavanda. Uso en bañera: Añadir 90 gramos al agua a una temperatura de confort. Para ambas opciones, permanecer de 10 a 20 minutos. No enjuagar posterior a la ducha, solo secar con una toalla y posteriormente tomar un descanso de 20 a 30 minutos",
 	    presentacion: "450 g",
 	    categoria: "corporal"
@@ -129,7 +129,7 @@ function loadProducts() {
             imagen: "./img/contorno.png",
             precio: "$115.00 MXN",
             descripcion: "Con esta crema de noche para todo tipo de piel se hidrata el área de contorno de tus ojos, reduciendo líneas de expresión, ojeras y bolsas de párpado. Gracias a su contenido de miel de abeja, esta crema retrasa el envejecimiento de la piel, potencializado por los beneficios del aceite de almendras y manteca de karité!",
-            ingredientes: "Agua de rosas, Miel, Aceite de almendras dulces, Ácido esteárico, Aceite de semilla de ricino, Manteca de karité, Ésteres de cetilo, Glicerina, Lanolina, Trietanolamina, Vitamina A, Esencia de miel",
+            ingredientes: "Agua de rosas, miel, almendras, acido esteárico, aceite de ricino, manteca de karité, ésteres de cetilo, glicerina, lanolina, trietanolamina, Vitamina A y esencia de miel",
             instrucciones: "Aplicar diariamente en el área de contorno de ojos durante la noche; esparcir dando pequeños golpecitos con el dedo anular. Al día siguiente, lavarse la cara nuevamente y continuar con la rutina normal de cuidado facial",
 	    presentacion: "75 g",
 	    categoria: "facial"
@@ -139,7 +139,7 @@ function loadProducts() {
             imagen: "./img/balsamo.png",
             precio: "$69.00 MXN",
             descripcion: "Con el bálsamo labial Tonalli, tendrás una experiencia de mascarilla protectora y súper hidratante que dejará tus labios suaves, regordetes y bien nutridos, gracias a su mezcla de grasas y aceites naturales! Es ideal para tratar labios agrietados... Y si quieres que brillen, se puede usar como una base antes de aplicar tu labial favorito!",
-            ingredientes: "Agua, Esencia de fresa, Aceite de almendras dulces, Ácido esteárico, Cera de abejas, Aceite de semilla de ricino, Manteca de semillas de cacao, Manteca de karité, Azúcares añadidos, Lanolina, Colorante vegetal rojo, Trietanolamina",
+            ingredientes: "Agua, esencia de fresa, almendras, ácido esteárico, cera de abeja, aceite de ricino, manteca de karité y cacao, lanolina, colorante vegetal rojo y trietanolamina",
             instrucciones: "Aplicar una pequeña cantidad de bálsamo en los labios según sea necesario, especialmente después de lavarse la cara o después de salir al exterior",
 	    presentacion: "25 g",
 	    categoria: "facial"
@@ -149,7 +149,7 @@ function loadProducts() {
             imagen: "./img/cremaAlm.png",
             precio: "$195 MXN",
             descripcion: "Humecta y nutre tu piel con la fantástica crema corporal líquida Tonalli de almendras adaptable a todo tipo de piel! Con una consistencia ligera y de rápida absorción, sus ingredientes principales, aceite de almendras y manteca de karité, proporcionan un extra de suavidad y elasticidad adicional",
-            ingredientes: "Agua, Aceite de almendras dulces, Aceite de maíz, Ácido esteárico, Glicerina, Trietanolamina, Manteca de karité, Esencia de almendras",
+            ingredientes: "Agua, aceite de almendras y maíz, ácido esteárico, glicerina, trietanolamina, manteca de karité y esencia de almendras",
             instrucciones: "Aplicar generosamente sobre la parte del cuerpo a humectar, dar masaje según sea necesario",
 	    presentacion: "Doble presentación: 250 ml ($117.00 MXN) y 500 ml ($195.00 MXN)",
 	    categoria: "corporal"
@@ -159,7 +159,7 @@ function loadProducts() {
             imagen: "./img/cremaMam.png",
             precio: "$195.00 MXN",
             descripcion: "Crema altamente nutritiva y reparadora ideal para todo tipo de pieles, incluso las sensibles. Gracias a la combinación del aceite de mamey y almendras, esta crema es excelente para regenerar la piel, calmar la irritación, mejorar la elasticidad, y tratar cicatrices, estrías y piel extremadamente áspera como los codos y talones!",
-            ingredientes: "Agua, Aceite de maíz, Ácido esteárico, Glicerina, Aceite de almendras dulces, Aceite de hueso de mamey, Trietanolamina, Manteca de karité, Esencia de cítricos, frutal y de chocolate",
+            ingredientes: "Agua, aceite de maíz, ácido esteárico, glicerina, aceite de almendras y de hueso de mamey, trietanolamina, manteca de karité, esencia de cítricos, frutal y chocolate",
              instrucciones: "Aplicar generosamente sobre la parte del cuerpo a humectar, dar masaje según sea necesario",
 	     presentacion: "Doble presentación: 250 ml ($117.00 MXN) y 500 ml ($195.00 MXN)",
 	    categoria: "corporal"
@@ -169,7 +169,7 @@ function loadProducts() {
             imagen: "./img/acondicionador.png",
             precio: "$195.00 MXN",
             descripcion: "Dale a tu cabello la hidratación y nutrición que se merece, y disfruta de una melena suave, manejable y radiante a diario con este acondicionador! El aloe vera ayuda a suavizar y revitalizar el cabello, mientras que la manteca de karité proporciona hidratación intensa que reduce la resequedad y el frizz",
-            ingredientes: "Agua, Extracto de aloe vera, Metosulfato de behentrimonio, Aceite de maíz, Glicerina, Manteca de karité, Trietanolamina, Esencia de bambú",
+            ingredientes: "Agua, aloe vera, BTMS-25, aceite de maíz, glicerina, manteca de karité, trietanolamina y esencia de bambú",
             instrucciones: "Aplicar en el cabello masajeando desde en medio y hasta la puntas; dejar actuar de 3 a 5 minutos, y después enjuagar con abundante agua tibia",
 	    presentacion: "250 ml",
 	    categoria: "capilar"
@@ -179,7 +179,7 @@ function loadProducts() {
             imagen: "./img/cremaAnti.png",
             precio: "$143.00 MXN",
             descripcion: "Con esta crema de origen 100% natural, adecuada para cualquier tipo de piel, suaviza y bríndale la máxima hidratación para prevenir la aparición de estrías. También es ideal para cuidar tu piel desde los primeros cambios durante el embarazo y postparto, además de que su agradable aroma a cacao y karité, transformará tu rutina en un ritual de amor propio, cálido y relajante!",
-            ingredientes: "Manteca de karité, Aceite de almendras dulces, Lanolina, Manteca de cacao, Aceite de maíz, Cera de abejas, Esencia de chocolate ",
+            ingredientes: "Manteca de karité, aceite de almendras, lanolina, manteca de cacao, aceite de maíz, cera de abeja y esencia de chocolate",
              instrucciones: "Aplicar generosamente sobre los antebrazos, vientre, cadera, senos y/o muslos preferentemente dos veces al día; masajear suavemente de forma circular hasta su completa absorción",
 	     presentacion: "40 g",
 	    categoria: "corporal"
@@ -189,7 +189,7 @@ function loadProducts() {
             imagen: "./img/pantallaSol.png",
             precio: "$147.00 MXN",
             descripcion: "Con esta pantalla natural rica en Té verde, estás creando una barrera física antioxidante a tu piel para prevenir el envejecimiento prematuro, y la aparición de manchas y arrugas debido a radicales libres del ambiente y a los rayos del sol! Apta para uso facial y corporal en todo tipo de piel. Y para las ocasiones en que te maquilles, puedes hacerlo sobre la pantalla sin retirarla!",
-            ingredientes: "Agua, Dióxido de titanio, Carbómero, Glicerina, Aceite esencial de té verde, Trietanolamina",
+            ingredientes: "Agua, dióxido de titanio, gel base, glicerina, aceite esencial de té verde y trietanolamina",
              instrucciones: "Aplicar generosamente sobre las áreas del cuerpo a proteger, 30 minutos antes de exponerse al sol. En caso de exposición prolongada, repetir cada 2 horas. No aplicarse si estará en contacto con el agua",
 	     presentacion: "100 g",
 	    categoria: "protectores"
@@ -199,7 +199,7 @@ function loadProducts() {
             imagen: "./img/desmaquillante.png",
             precio: "$73.00 MXN",
              descripcion: "Ideal para desmaquillar ojos y rostro sin irritarte ya que no contiene alcohol y/o químicos sintéticos! Es completamente natural de origen vegetal que, además de retirar el maquillaje, contrarresta el daño que este también ocasiona eliminando impurezas y suciedad, dándole suavidad e hidratación a tu piel gracias a su contenido de agua de rosas",
-            ingredientes: "Agua de rosas, Aceite de almendras dulces , Aceite de oliva, Aceite de semilla de ricino, Aceite esencial de rosas",
+            ingredientes: "Agua de rosas, aceite de almendras, oliva, ricino y de rosas",
              instrucciones: "Agitar bien antes de usar. Aplicar desmaquillante sobre un algodón o trapito para desmaquillarse, y posteriormente pasarlo por los ojos y rostro",
 	     presentacion: "60 ml",
 	    categoria: "facial"
@@ -209,7 +209,7 @@ function loadProducts() {
             imagen: "./img/serumF.png",
             precio: "$65.00 MXN",
             descripcion: "Serum eficaz para combatir la piel apagada y con signos de envejecimiento prematuro gracias a su magistral combinación de activos botánicos. Este serum nutre y regenera profundamente, y mejora la elasticidad logrando una piel más suave, radiante y saludable. Producto recomendable para piel seca; apta para pieles sensibles",
-            ingredientes: "Aceite de aguacate, Aceite de almendras dulces, Aceite de germen de trigo, Esencia de manzana verde",
+            ingredientes: "Aceite de aguacate, almendras y germen de trigo, esencia de manzana verde",
             instrucciones: "Aplicar de 6 a 8 gotas en la cara limpia dando un ligero masaje hasta completa absorción (frente, pómulos, barbilla y nariz). También se puede aplicar en cuello y escote. De uso diario de forma nocturna",
 	    presentacion: "30 ml",
 	    categoria: "facial"
@@ -219,7 +219,7 @@ function loadProducts() {
             imagen: "./img/serumH.png",
             precio: "$65.00 MXN",
             descripcion: "Revitaliza tu piel con esta fusión perfecta de agua de rosas y Vitamina C! El agua de rosas es ideal para restaurar y balancear los aceites naturales de la piel deshidratada, dándole una vista de frescura y suavidad; y la vitamina C es un antioxidante esencial que te protege del daño causado por la contaminación, además de potencializar la producción natural de colágeno",
-            ingredientes: "Agua de rosas, Vitamina C, Glicerina",
+            ingredientes: "Agua de rosas, vitamina C y glicerina",
             instrucciones: "Aplicar de 6 a 8 gotas en la cara limpia dando un ligero masaje hasta completa absorción (frente, pómulos, barbilla y nariz). También se puede aplicar en cuello y escote.  De uso diario de forma nocturna",
 	    presentacion: "30 ml",
 	    categoria: "facial"
@@ -229,7 +229,7 @@ function loadProducts() {
             imagen: "./img/shampooHid.png",
             precio: "$197.00 MXN",
             descripcion: "Shampoo natural con extracto de aloe vera ideal para hidratar el cabello, dejándolo suave, manejable y con brillo! Además, facilita el peinado y desenredo, logrando un cabello más sedoso. Recomendado para todo tipo de cabello",
-            ingredientes: "Lauril Sulfato de Sodio, Extracto de aloe vera, Agua, Cloruro de sodio, Esencia de bambú, Colorante vegetal verde",
+            ingredientes: "Tensioactivo SLES, aloe vera, agua, cloruro de sodio, esencia de bambú y colorante vegetal verde",
             instrucciones: "Aplicar el producto sobre el cuero cabelludo, masajear suavemente distribuyendo la espuma hasta las puntas; dejar actuar durante unos minutos. Enjuagar y repetir en caso de ser necesario",
 	    presentacion: "Doble presentación: 250 ml ($115.00 MXN) y 500 ml ($197.00 MXN)",
 	    categoria: "capilar"
@@ -239,7 +239,7 @@ function loadProducts() {
             imagen: "./img/shampooHidF.png",
             precio: "$197.00 MXN",
             descripcion: "Shampoo natural con extracto de aloe vera y aceite de aguacate ideal para todo tipo de cabello con problemas de frizz!  Este shampoo combate el frizz, hidratándolo y aportándole suavidad y brillo",
-            ingredientes: "Lauril Sulfato de Sodio, Agua, Aceite de Aguacate, Extracto de aloe vera, Cloruro de sodio, Esencia de bambú, Colorante vegetal verde",
+            ingredientes: "Tensioactivo SLES, agua, aceite de aguacate, aloe vera, cloruro de sodio, esencia de bambú y colorante vegetal verde",
             instrucciones: "Aplicar el producto sobre el cuero cabelludo, masajear suavemente distribuyendo la espuma hasta las puntas; dejar actuar durante unos minutos. Enjuagar y repetir en caso de ser necesario",
 	    presentacion: "Doble presentación: 250 ml ($115.00 MXN) y 500 ml ($197.00 MXN)",
 	    categoria: "capilar"
@@ -249,7 +249,7 @@ function loadProducts() {
             imagen: "./img/shampooAnt.png",
             precio: "$291.00 MXN",
             descripcion: "Shampoo natural con extracto de aloe vera y aceite esencial de árbol de té  ideal para cuidar todo tipo de cabello, ayudando a combatir la caspa y a calmar la irritación del cuero cabelludo",
-            ingredientes: "Lauril Sulfato de Sodio, Extracto de aloe vera, Agua, Cloruro de sodio, Aceite esencial de árbol de té, Colorante vegetal verde",
+            ingredientes: "Tensioactivo SLES, aloe vera, agua, cloruro de sodio, árbol de té y colorante vegetal verde",
             instrucciones: "Aplicar el producto sobre el cuero cabelludo, masajear suavemente distribuyendo la espuma hasta las puntas; dejar actuar durante unos minutos. Enjuagar y repetir en caso de ser necesario",
 	    presentacion: "Doble presentación: 250 ml ($179.00 MXN) y 500 ml ($291.00 MXN)",
 	    categoria: "capilar"
@@ -259,7 +259,7 @@ function loadProducts() {
             imagen: "./img/shampooRom.png",
             precio: "$291.00 MXN",
             descripcion: "Shampoo natural con extracto de romero y chile, ideal para cuidar todo tipo de cabello con problema de caída. Este shampoo ayuda a combatir la caída de cabello estimulando su crecimiento y fortaleciendo el cuero cabelludo. Además, esta formulación te ofrece suavidad y brillo extra!",
-            ingredientes: "Lauril Sulfato de Sodio, Agua, Extracto de romero, Extracto de chile, Cloruro de sodio, Aceite de fruta de bergamota, Colorante vegetal rojo",
+            ingredientes: "Tensioactivo SLES, agua, romero, chile, cloruro de sodio, bergamota y colorante vegetal rojo",
             instrucciones: "Aplicar el producto sobre el cuero cabelludo, masajear suavemente distribuyendo la espuma hasta las puntas; dejar actuar durante unos minutos. Enjuagar y repetir en caso de ser necesario",
 	    presentacion: "Doble presentación: 250 ml ($179.00 MXN) y 500 ml ($291.00 MXN)",
 	    categoria: "capilar"
