@@ -105,12 +105,12 @@ function loadProducts() {
 	    categoria: "facial"
         },
 	{
-            nombre: "Sales de baños florales",
+            nombre: "Sales de baño florales",
             imagen: "./img/salesFlo.png",
             precio: "$158.00 MXN",
             descripcion: "Las sales de baño artesanales de Tonalli ayudan a exfoliar y desintoxicar tu cuerpo con la apertura de los poros de la piel, lo cual permite la liberación de toxinas y metales pesados. Lleva tu cuerpo a un estado de dulce relajación, y a la vez mejora considerablemente tu circulación sanguínea!",
             ingredientes: "Sal marina, sulfato de magnesio, glicerina, esencia floral y  colorante vegetal rojo",
-            instrucciones: "Uso en pies: Llenar una cubeta con 10 litros de agua a una temperatura tibia a caliente agradable, y añadir 30 gramos de sales florales. Uso en bañera: Añadir 90 gramos al agua a una temperatura de confort. Para ambas opciones, permanecer de 10 a 20 minutos. No enjuagar posterior a la ducha, solo secar con una toalla y posteriormente tomar un descanso de 20 a 30 minutos",
+            instrucciones: "Uso en pies: Llenar una cubeta con 10 litros de agua a una temperatura tibia a caliente agradable, y añadir 30 gramos (aprox. 3 cdas) de sales florales. Uso en bañera: Añadir 90 gramos (aprox. 1/2 taza) al agua a una temperatura de confort. Para ambas opciones, permanecer de 10 a 20 minutos. No enjuagar posterior a la ducha, solo secar con una toalla y posteriormente tomar un descanso de 20 a 30 minutos",
 	    presentacion: "450 g",
 	    categoria: "corporal"
         },
@@ -120,7 +120,7 @@ function loadProducts() {
             precio: "$158.00 MXN",
             descripcion: "Las sales de baño artesanales de Tonalli ayudan a exfoliar suavemente, a regular el nivel de humedad celular y activar el metabolismo. Bañarse con sales de lavanda te ayudará a combatir la fatiga mejorando tu estado de ánimo, y a la vez relajándote para eliminar el insomnio y brindarte paz interior!",
             ingredientes: "Sal marina, sulfato de magnesio, glicerina, esencia de lavanda y colorante vegetal rojo y azul",
-            instrucciones: "Uso en pies: Llenar una cubeta con 10 litros de agua a una temperatura tibia a caliente agradable, y añadir 30 gramos de sales de lavanda. Uso en bañera: Añadir 90 gramos al agua a una temperatura de confort. Para ambas opciones, permanecer de 10 a 20 minutos. No enjuagar posterior a la ducha, solo secar con una toalla y posteriormente tomar un descanso de 20 a 30 minutos",
+            instrucciones: "Uso en pies: Llenar una cubeta con 10 litros de agua a una temperatura tibia a caliente agradable, y añadir 30 gramos (aprox. 3 cdas) de sales de lavanda. Uso en bañera: Añadir 90 gramos (aprox. 1/2 taza) al agua a una temperatura de confort. Para ambas opciones, permanecer de 10 a 20 minutos. No enjuagar posterior a la ducha, solo secar con una toalla y posteriormente tomar un descanso de 20 a 30 minutos",
 	    presentacion: "450 g",
 	    categoria: "corporal"
         },
@@ -205,22 +205,23 @@ function loadProducts() {
 	    categoria: "facial"
          },
 	{
-            nombre: "Serum facial nutritivo",
+            nombre: "Sérum facial nutritivo",
             imagen: "./img/serumF.png",
             precio: "$65.00 MXN",
-            descripcion: "Serum artesanal eficaz para combatir la piel apagada y con signos de envejecimiento prematuro gracias a su magistral combinación de activos botánicos. Este serum nutre y regenera profundamente, y mejora la elasticidad logrando una piel más suave, radiante y saludable. Producto recomendable para piel seca; apta para pieles sensibles",
+            descripcion: "Sérum artesanal eficaz para combatir la piel apagada y con signos de envejecimiento prematuro gracias a su magistral combinación de activos botánicos. Este sérum nutre y regenera profundamente, y mejora la elasticidad logrando una piel más suave, radiante y saludable. Producto recomendable para piel seca; apta para pieles sensibles",
             ingredientes: "Aceite de aguacate, almendras y germen de trigo, esencia de manzana verde",
-            instrucciones: "Aplicar de 6 a 8 gotas en la cara limpia dando un ligero masaje hasta completa absorción (frente, pómulos, barbilla y nariz). También se puede aplicar en cuello y escote. De uso diario de forma nocturna",
+            instrucciones: "Aplicar de 6 a 8 gotas en la cara limpia dando un ligero masaje hasta completa absorción (frente, pómulos, barbilla y nariz). También se puede aplicar en cuello y escote. De uso diario de forma nocturna, y al día siguiente lavarse la cara nuevamente, y continuar la rutina normal de cuidado facial",
 	    presentacion: "30 ml",
 	    categoria: "facial"
         },
 	{
-            nombre: "Serum facial hidratante",
+            nombre: "Sérum facial hidratante",
             imagen: "./img/serumH.png",
             precio: "$65.00 MXN",
             descripcion: "Revitaliza tu piel con esta fusión artesanal perfecta de agua de rosas y Vitamina C! El agua de rosas es ideal para restaurar y balancear los aceites naturales de la piel deshidratada, dándole una vista de frescura y suavidad; y la vitamina C es un antioxidante esencial que te protege del daño causado por la contaminación, además de potencializar la producción natural de colágeno",
             ingredientes: "Agua de rosas, vitamina C y glicerina",
-            instrucciones: "Aplicar de 6 a 8 gotas en la cara limpia dando un ligero masaje hasta completa absorción (frente, pómulos, barbilla y nariz). También se puede aplicar en cuello y escote.  De uso diario de forma nocturna",
+            instrucciones: "Aplicar de 6 a 8 gotas en la cara limpia dando un ligero masaje hasta completa absorción (frente, pómulos, barbilla y nariz). También se puede aplicar en cuello y escote.  De uso diario de forma nocturna, y al día siguiente lavarse la cara nuevamente, y continuar la rutina normal de cuidado facial",
+	    precaucion: "Guardar el envase de forma vertical en un lugar fresco, seco y oscuro",
 	    presentacion: "30 ml",
 	    categoria: "facial"
         },
